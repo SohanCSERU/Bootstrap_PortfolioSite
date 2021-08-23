@@ -1,0 +1,41 @@
+body{
+    background: #F4F7F6;
+    
+  
+    background: -webkit-linear-gradient(to right, rgba(251, 194, 235, 0.1), rgba(166, 193, 238, 0.1));
+  
+    background: linear-gradient(to right, rgba(251, 194, 235, 0.1), rgba(166, 193, 238, 0.2))
+}
+p{
+  /* font-family: 'Roboto', sans-serif; */
+  font-family: 'Rubik', sans-serif;
+  font-size: 15px;
+}
+
+.btn-white-light{
+  background-color: #ffffff;
+}
+.card{
+  background: none;
+}
+.grid-box{
+    background-color: white;
+
+}
+.align_center{
+  text-align: center;
+}
+.img-hover-zoom {
+    /* height: 300px;  */
+    overflow: hidden; /* [1.2] Hide the overflowing of child elements */
+  }
+  
+  /* [2] Transition property for smooth transformation of images */
+  .img-hover-zoom img {
+    transition: transform .5s ease;
+  }
+  
+  /* [3] Finally, transforming the image when container gets hovered */
+  .img-hover-zoom:hover img {
+    transform: scale(1.10);
+  }
